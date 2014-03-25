@@ -121,9 +121,9 @@ body{
 }
 #top-bar h4{
     position:relative;
-    float:right;
     display:block;
 }
+
 
 h1, h2, h3, label, div {
     font-family: Helvetica, Arial, sans-serif;
@@ -250,7 +250,7 @@ ul li{
 ul li a{
 
 
-    font-family: helvetica;
+    font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     font-size:18px;
     color:black;
@@ -286,15 +286,22 @@ ul{
         display:none;
         margin-top:30px;
 
-    }
-    #red{
+}
+
+#red{
         height:20px;
         width:100%;
         background-color:rgb(230,56,83);
         position:fixed;
         bottom:0px;
         margin-top:10px;
-    }
+}
+
+.research{
+    text-align:center;
+    float:left;
+    position:relative;
+}
 /* media queries */
 
 
@@ -323,13 +330,17 @@ ul{
         font-size:30px;
     }
     ul{
-        width:250px;
+        width:350px;
+        position:absolute;
+        top:30px;
     }
     ul li a{
-        float:left;
-        position:relative;
+        float:right;
+
         display:inline;
-       font-size:16px;
+        font-size:16px;
+        margin-right:10px;
+        text-decoration: underline;
     }
 }
 

@@ -9,7 +9,8 @@ $(document).ready(function(){
 
     var text = $("input").val();
     if(text.length > 0) {
-    $.getJSON('http://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=502d8f35ecf639d01769c60c3ff4a42d&user_id=99250306%40N03&contacts=103104156%40N07&format=json&nojsoncallback=1&auth_token=72157642856975774-7c1fd459d85cbb2c&api_sig=e0c6183b6472617d301402e13eca79a6', successCallback);
+    $.getJSON('http://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=2fae147e843094cca415d2c5a90d91b9&contacts=40562478%40N08%2C103104156%40N07&per_page=200&format=json&nojsoncallback=1&auth_token=72157642911607483-8619882c427de747&api_sig=0adb137ff8b40cc01e76ae9ac4dc57ca', successCallback);
+    $(".new-search").show()
     } else {
       alert("you need to enter a value");
     }
