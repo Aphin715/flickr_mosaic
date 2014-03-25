@@ -48,5 +48,5 @@ $.getJSON('https://api.flickr.com/services/rest/?method=flickr.photos.search&api
     window.location.reload(true);
   });
   $(".fancybox").fancybox();
-
+  $("#top-bar h1, .linebox").css('cursor','pointer');
 });

@@ -46,5 +46,5 @@ $(document).ready(function(){
     window.location.reload(true);
   });
   $(".fancybox").fancybox();
-
+  $("#top-bar h1, .linebox").css('cursor','pointer');
 });

@@ -198,6 +198,9 @@ nav .search{
     width: 60%;
 }
 
+.tile{
+    margin-left:40px;
+}
 /*#tiles {
     position: absolute;
     top: 55px;
@@ -216,7 +219,7 @@ nav .search{
     display: inline-block;
     width: 150px;
     height: 150px;
-    margin:2px;
+    margin:1px;
 
 }
 /* clearfix class */
@@ -312,6 +315,9 @@ ul{
 
     #main h2, #main h3 {
         text-align: center;
+    }
+    #top-bar{
+        height:100px;
     }
     #top-bar h1{
         font-size:30px;
