@@ -282,6 +282,10 @@ ul{
 
 }
 
+/*.linebox > .line:hover{
+   color:rgb(196,193,186);
+}*/
+
 .dropdown{
         display:none;
         margin-top:30px;
