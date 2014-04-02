@@ -339,12 +339,12 @@ ul{
         top:30px;
     }
     ul li a{
-        float:right;
+        float:left;
 
-        display:inline;
         font-size:16px;
-        margin-right:10px;
+        margin-right:50px;
         text-decoration: underline;
+
     }
 }
 

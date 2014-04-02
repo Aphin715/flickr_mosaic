@@ -2,14 +2,14 @@
 $(document).ready(function(){
 
 
-  var key = 'ff6b4a42a79e0d2a01a2e9bcece3dcad';
+  var key = 'afd1a75211d9ad2a6d9cbb13f3a5947a';
 
   $('#search-form').submit(function(e){
     e.preventDefault();
 
     var text = $("input").val();
     if(text.length > 0) {
-    $.getJSON('https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=1644e0c9904c476ab9aa143ebca15c48&contacts=103104156%40N07%2C40562478%40N08&format=json&nojsoncallback=1&auth_token=72157643272027353-ea5aba7f62419908&api_sig=f52cb4e9c6f8dc294a56781ae3a68572', successCallback);
+    $.getJSON('http://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=afd1a75211d9ad2a6d9cbb13f3a5947a&contacts=103104156%40N07%2C40562478%40N08&format=json&nojsoncallback=1', successCallback);
     } else {
       alert("you need to enter a value");
     }

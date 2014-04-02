@@ -2,8 +2,7 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
-    <html class="no-js"> <!--<![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -23,7 +22,7 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-<!-- <div id="wrapper"> -->
+<div id="wrapper">
     <nav id="top-bar">
         <div class="contain">
 
@@ -36,13 +35,14 @@
         </section>
         <ul class="dropdown">
             <li><a href="phin.html">My Flickr</a></li>
-            <li><a href="index.html">My Friends Flickr</a></li>
-            <li><a href="publicpics.html">Public Flickr</a></li>
+            <!-- <li><a href="index.html">My Friends Flickr</a></li> -->
+            <li><a href="index.html">Public Flickr</a></li>
         </ul>
+
     </nav>
 
     <div id="main">
-        <h1>Phriends of Phin's Photos</h1>
+        <h1>Seach Public Photos</h1>
             <p class="directions">Type in a keyword or a string of words to make a photo mosaic from Flickr images.</p>
                 <form id="search-form">
                     <input type="text" id="keywords" />
@@ -50,13 +50,12 @@
                 </form>
     </div>
 
-<section id="center">
     <div id="tiles">
         <div class="tile">
         </div>
     </div>
-</section>
 
+    </div>
         <footer id="red">
         </footer>
 
@@ -64,13 +63,10 @@
 
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-
-<!-- Add fancyBox -->
-        <link rel="stylesheet" href="js/vendor/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
-        <script type="text/javascript" src="js/vendor/jquery.fancybox.pack.js?v=2.1.5"></script>
-
+    <link rel="stylesheet" href="js/vendor/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+    <script type="text/javascript" src="js/vendor/jquery.fancybox.pack.js?v=2.1.5"></script>
         <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+        <script src="js/public.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
